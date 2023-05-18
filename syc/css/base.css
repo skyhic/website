@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none; /* firefox */
+
+    -ms-overflow-style: none; /* IE 10+ */
+}
+li{
+    list-style: none;
+
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
