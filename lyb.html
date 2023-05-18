@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人简介</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/ph.css">
+	<link rel="stylesheet" href="./css/fs.css">
+	<link rel="stylesheet" href="./css/fj.css">
+	<link rel="stylesheet" href="./css/suo.css">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-size: 100%;
+			background-repeat:no-repeat;
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100vh;
+		}
+		h1 {
+			font-family:华文琥珀;
+			text-align: center;
+			margin-top: 50px;
+			color: yellow;
+		}
+		p,ul {
+			margin: 20px;
+			line-height: 1.5;
+			font-size: 18px;
+			color: white;
+		}
+		#Yourphoto1 {
+			display: block;
+			margin: auto;
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			object-fit: cover;
+		}
+		#lyb1 {
+			display: block;
+			margin: auto;
+			width: 200px;
+			height: 170px;
+			object-fit: cover;
+			float:right;
+			top:0%;
+		}
+		
+		.container {
+			max-width: 800px;
+			background-color: rgba(0, 0, 0, 0.5);
+			height: 1950px;
+			margin: auto;
+			padding: 50px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		}
+		
+		.slefphoto {
+		  display: flex;
+		  justify-content: center;
+		  list-style-type: none;
+		  padding: 0;
+		}
+		
+		.each {
+		  margin: 0 10px;
+		}
+		
+		#self {
+		  max-width: 200px;
+		  border-radius: 50%;
+		  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+		  transition: transform 0.3s ease-in-out;
+		}
+		
+		#self:hover {
+		  transform: scale(1.1);
+		}
+	</style>
+</head>
+
+<body background="img/1.png" style="background-size:100% 100%;background-attachment: fixed;">
+	<img src="img/football.png" id="football">
+	<div id="shadow"></div>
+	
+	<div class="container">
+		<div class="article">
+			<img src="https://t11.baidu.com/it/u=1142620187,176378214&fm=30&app=106&f=JPEG?w=640&h=400&s=ED368654CE1A7AD6960A188B0300E088" id="Yourphoto1">
+			<h1>Lewo</h1>
+			<img src="img/lyb.jpg" id="lyb1">
+			<ul>
+				<li>姓名：雒昱博</li>
+				<li>性别：男</li>
+				<li>出生日期：2002年11月2日</li>
+				<li>民族：汉族</li>
+				<li>专业：地理信息科学</li>
+				<li>籍贯：吉林延边</li>
+			</ul>
+			<hr>
+			<div id="part1">
+				<p style="color:red;">本人爱好涉猎广泛，对足球尤为喜爱</p>
+				<div class="photo-container">
+				  <img src="./img/1684047727553.jpg" id="p1">
+				  <img src="./img/1684047727561.jpg" id="p2">
+				  <img src="./img/1684047727568.jpg" id="p4">
+				  <img src="./img/1684047727564.jpg" id="p3">
+				  
+				</div>
+				<p style="font-family:华文琥珀;text-align: center;margin-top: 18px;color: green;">
+					这就是我和我在绿茵场上并肩战斗的兄弟们!</p>
+			</div>
+			<p>他们是我在球场上的偶像：</p>
+			<div class="movies">
+			<div class="card">
+			    <div class="photo">
+			        <img src="./img/de.webp" alt="">
+			    </div>
+			    <h2>Kevin De Bruyne</h2>
+			    <a href="https://baike.baidu.com/item/%E5%87%AF%E6%96%87%C2%B7%E5%BE%B7%E5%B8%83%E5%8A%B3%E5%86%85/5439527?fromtitle=%E5%BE%B7%E5%B8%83%E5%8A%B3%E5%86%85&fromid=5377895&fr=aladdin">了解更多</a>
+			</div>
+			<div class="card">
+			    <div class="photo">
+			        <img src="./img/neymar.jpg" alt="">
+			    </div>
+			    <h2>NEYMAR.JR</h2>
+			    <a href="https://baike.baidu.com/item/%E5%86%85%E9%A9%AC%E5%B0%94%C2%B7%E8%BE%BE%C2%B7%E5%B8%AD%E5%B0%94%E7%93%A6%C2%B7%E6%A1%91%E6%89%98%E6%96%AF%C2%B7%E5%84%92%E5%B0%BC%E5%A5%A5%E5%B0%94/13024110?fromtitle=%E5%86%85%E9%A9%AC%E5%B0%94&fromid=3431139&fr=aladdin">了解更多</a>
+			</div>
+			<div class="card">
+			    <div class="photo">
+			        <img src="./img/pogeba.jpg" alt="">
+			    </div>
+			    <h2>Paul Pogba</h2>
+			    <a href="https://baike.baidu.com/link?url=5ayjNjxgFuRIRmVE_4TOcUJfAcahKuEWHU5xtLcAlUCnrZhr5ry1lb2MkE-1ivvjyXMNQ272INyJOFG4GlCq8FeAgoKnKLsBXtHvOSnTyjjYFxNQQnCZNZ2PMKaIR41kyZ7jGcC-HmmZHcJyCbp1wq">了解更多</a>
+			</div>
+			</div>
+			<hr>
+			<div>
+				<p>
+					除此之外，在闲暇之余很乐意去走走转转，去欣赏祖国的大好河山和各个城市的灯红酒绿；
+				</p>
+				<div class="image-row">
+				  <img src="./img/11.jpg" alt="Image 1">
+				  <img src="./img/22.jpg" alt="Image 2">
+				  <img src="./img/33.jpg" alt="Image 3">
+				  <img src="./img/44.jpg" alt="Image 4">
+				  <img src="./img/55.jpg" alt="Image 5">
+				</div>
+			</div>
+			<p>如果您想了解更多关于我的信息，请联系我：</p>
+			<ul>
+				<li>QQ: 1254349025</li>
+				<li>电话: +86 18744339138</li>
+				<li>微信: njrlyb10</li>
+			</ul>
+			
+			<ul class="slefphoto">
+			<li class="each"><img src="./img/1684142094682.jpg" id="self"></li>
+			<li class="each"><img src="./img/1684142094691.jpeg" id="self"></li>
+			<li class="each"><img src="./img/1684142094698.jpeg" id="self"></li>
+			</ul>
+		</div>
+		
+	</div>
+</body>
+</html>
