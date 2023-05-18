@@ -1,0 +1,17 @@
+.image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-row img {
+  width: 160px;
+  height: 300px;
+  margin: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-row img:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}

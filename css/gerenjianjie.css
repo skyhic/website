@@ -1,0 +1,9 @@
+.grjj{
+    display: flex;
+    background-color: wheat;
+    justify-content: space-around;
+    align-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}

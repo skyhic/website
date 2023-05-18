@@ -1,0 +1,54 @@
+.header div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+
+
+.header{
+    height: 100px;
+    background-color: rgba(137, 171, 131, 0.686);
+    border-bottom: 2px solid #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;  
+
+}
+.placeholder {
+    height: 90px;
+  }
+.wrapper{
+    margin: 0 auto;
+    
+    
+}
+.nav{
+    height: 80px;
+    width: 100%;
+    
+}
+.nav ul{
+    display: flex;
+
+}
+.nav ul li{
+    width: 150px;
+    height: 80px;
+    margin: 0 100px;
+    line-height: 100px;
+
+}
+.nav ul li a{
+    padding: 10px;
+}
+.nav ul li .active,.nav ul li a:hover{
+    border-bottom: 5px solid #00a4ff;
+}
+
+    

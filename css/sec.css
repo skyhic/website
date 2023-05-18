@@ -1,0 +1,346 @@
+.content {
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(77, 164, 132);
+    padding: 0 10%;
+  }
+  
+  .content .c1 {
+    height: 300px;
+    width: 60%;
+    border: 1px solid blue;
+    box-shadow: 0 0 10px #000;
+    margin: 0 5%;
+    border-radius: 8px;
+    background-image: url("../image/jzg1.jpg");
+    transition: all 0.3s ease-in-out;
+    transform: translateZ(0);
+  }
+  .content .c1:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+    opacity: 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease-in-out;
+  }
+  .content .c1:hover {
+    box-shadow: 0 0 20px #000;
+    background-position: center right;
+  }
+  .content .c1 :hover::before {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .content .c2 {
+    height: 300px;
+    width: 60%;
+    border: 1px solid blue;
+    box-shadow: 0 0 10px #000;
+    margin: 0 5%;
+    border-radius: 8px;
+    background-image: url("../image/xh1.jpg");
+    transition: all 0.3s ease-in-out;
+    transform: translateZ(0);
+  }
+  .content .c2:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+    opacity: 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease-in-out;
+  }
+  .content .c2:hover {
+    box-shadow: 0 0 20px #000;
+    background-position: center right;
+  }
+  .content .c2 :hover::before {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .content .c3 {
+    height: 300px;
+    width: 60%;
+    border: 1px solid blue;
+    box-shadow: 0 0 10px #000;
+    margin: 0 5%;
+    border-radius: 8px;
+    background-image: url("../image/cbs1.jpg");
+    transition: all 0.3s ease-in-out;
+    transform: translateZ(0);
+  }
+  .content .c3:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+    opacity: 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease-in-out;
+  }
+  .content .c3:hover {
+    box-shadow: 0 0 20px #000;
+    background-position: center right;
+  }
+  .content .c3 :hover::before {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .content .c4 {
+    height: 300px;
+    width: 60%;
+    border: 1px solid blue;
+    box-shadow: 0 0 10px #000;
+    margin: 0 5%;
+    border-radius: 8px;
+    background-image: url("../image/qzgy1.jpg");
+    transition: all 0.3s ease-in-out;
+    transform: translateZ(0);
+  }
+  .content .c4:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+    opacity: 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease-in-out;
+  }
+  .content .c4:hover {
+    box-shadow: 0 0 20px #000;
+    background-position: center right;
+  }
+  .content .c4 :hover::before {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .content .c5 {
+    height: 300px;
+    width: 60%;
+    border: 1px solid blue;
+    box-shadow: 0 0 10px #000;
+    margin: 0 5%;
+    border-radius: 8px;
+    background-image: url("../image/sx1.jpg");
+    transition: all 0.3s ease-in-out;
+    transform: translateZ(0);
+  }
+  .content .c5:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+    opacity: 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease-in-out;
+  }
+  .content .c5:hover {
+    box-shadow: 0 0 20px #000;
+    background-position: center right;
+  }
+  .content .c5 :hover::before {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .content .c6 {
+    height: 300px;
+    width: 60%;
+    border: 1px solid blue;
+    box-shadow: 0 0 10px #000;
+    margin: 0 5%;
+    border-radius: 8px;
+    background-image: url("../image/hlbe.jpg");
+    transition: all 0.3s ease-in-out;
+    transform: translateZ(0);
+  }
+  .content .c6:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+    opacity: 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.3s ease-in-out;
+  }
+  .content .c6:hover {
+    box-shadow: 0 0 20px #000;
+    background-position: center right;
+  }
+  .content .c6 :hover::before {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .content .t1 {
+    width: 60%;
+    height: 200px;
+    font-style: italic;
+    margin: 0 5%;
+    /* background-color: #fff; */
+    border-style: 3px solid blue;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transform: translateZ(0);
+  }
+  
+  .content .t1:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: aquamarine;
+  }
+    .box{
+        margin: 0 auto;
+        height: 800px;
+        width: 100%;
+        background-color: rgb(77, 164, 132);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+	.QT{
+		margin: 10px;
+		height: 300px;
+		width: 100%;
+		background-color: black;
+		border-radius: 10%;
+		box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* 添加阴影 */
+		transition: all 0.3s ease-in-out; 
+	}
+    .b1 {
+        margin: 0 auto;
+        padding: 20px;
+        height: 700px;
+        background-color: whitesmoke;
+        width: 85%;
+        border-radius: 8%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.5); /* 添加阴影 */
+    }
+    .b1 div {
+        margin: 10px;
+        height: 300px;
+        width: 20%;
+        background-color: rgba(0,0,0,0.2);
+        border-radius: 10%;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.3); /* 添加阴影 */
+        transition: all 0.3s ease-in-out; /* 添加过渡效果 */
+    }
+    .b1 div:hover {
+        transform: translateY(-5px); /* 添加鼠标悬停的变换效果 */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* 添加鼠标悬停的阴影效果 */
+    } 
+    .c{
+      height: 100vh;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: rgb(77, 164, 132)
+  
+    }
+    .c .ct {
+      height: 100vh;
+      width: 40vh;
+      background-color: white;
+      border-radius: 8%;
+      text-align: center;
+      text-justify: auto;
+    }
+	
+    .c .cp{
+      height: 70vh;
+      width: 70vh;
+      background-color: white;
+      border-radius: 50%;
+      background-image: url(../image/5.jpg);
+
+    }
+    .slideshow-container {
+      max-width: 1500px;
+      position: relative;
+      margin: auto;
+      height: 100vh;
+    }
+    
+    .mySlides {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+    }
+    
+    .prev,
+    .next {
+      position: absolute;
+      bottom: 0%;
+      transform: translateY(-50%);
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      cursor: pointer;
+    }
+    
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {
+        opacity: 0.4;
+      }
+    
+      to {
+        opacity: 1;
+      }
+    }
